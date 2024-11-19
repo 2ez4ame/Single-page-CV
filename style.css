@@ -1,0 +1,102 @@
+
+body{
+    font-family:"Nunito Sans", sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 1px solid #000;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+#firstLine h1{
+    font-family:"Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 200px;
+    
+}
+
+#firstLine h4{
+    font-family:"Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(78, 205, 78);
+}
+
+.skills{
+    margin-left: 45px;
+    
+}
+
+.skills h4{
+    font-family:"Nunito Sans", sans-serif;
+    color: rgb(78, 205, 78);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.education{
+    margin-right: 115px;
+    font-family:"Nunito Sans", sans-serif;
+}
+
+.education h4{ 
+    font-family:"Nunito Sans", sans-serif;
+    color: rgb(78, 205, 78);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.experience{
+    margin-left: 45px;
+    font-family:"Nunito Sans", sans-serif;
+}
+
+.experience h4{
+    font-family:"Nunito Sans", sans-serif;
+    color: rgb(78, 205, 78);
+    font-weight: 400;
+    font-style: normal;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 230px;
+    gap: 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-family:"Nunito Sans", sans-serif;
+
+    
+   
+}
+button{
+    border: none;
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+button:hover{
+    background-color: rgb(57, 47, 47) ;
+    transition: 0.1s;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
